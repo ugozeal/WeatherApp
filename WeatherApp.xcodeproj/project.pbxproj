@@ -13,7 +13,11 @@
 		E239BBA8250E3A85005BD514 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E239BBA6250E3A85005BD514 /* Main.storyboard */; };
 		E239BBAA250E3A89005BD514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E239BBA9250E3A89005BD514 /* Assets.xcassets */; };
 		E239BBAD250E3A89005BD514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E239BBAB250E3A89005BD514 /* LaunchScreen.storyboard */; };
+		E25E52F825111BE900A6097B /* FiveDaysWeatherDataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E52F725111BE900A6097B /* FiveDaysWeatherDataInfo.swift */; };
 		E2B7B702250E755200804D8C /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7B701250E755200804D8C /* Designable.swift */; };
+		E2B7B704250EAABF00804D8C /* CurrentWeatherDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7B703250EAABF00804D8C /* CurrentWeatherDataLoader.swift */; };
+		E2B7B706250EC4F900804D8C /* CurrentWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7B705250EC4F900804D8C /* CurrentWeatherInfo.swift */; };
+		E2DF1A8A2510AE93003B4BE5 /* ForcastedWeatherDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF1A892510AE93003B4BE5 /* ForcastedWeatherDataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +29,11 @@
 		E239BBA9250E3A89005BD514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E239BBAC250E3A89005BD514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E239BBAE250E3A89005BD514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25E52F725111BE900A6097B /* FiveDaysWeatherDataInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDaysWeatherDataInfo.swift; sourceTree = "<group>"; };
 		E2B7B701250E755200804D8C /* Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
+		E2B7B703250EAABF00804D8C /* CurrentWeatherDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherDataLoader.swift; sourceTree = "<group>"; };
+		E2B7B705250EC4F900804D8C /* CurrentWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherInfo.swift; sourceTree = "<group>"; };
+		E2DF1A892510AE93003B4BE5 /* ForcastedWeatherDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcastedWeatherDataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +69,11 @@
 				E239BBA0250E3A85005BD514 /* AppDelegate.swift */,
 				E239BBA2250E3A85005BD514 /* SceneDelegate.swift */,
 				E239BBA4250E3A85005BD514 /* ViewController.swift */,
+				E2DF1A892510AE93003B4BE5 /* ForcastedWeatherDataLoader.swift */,
 				E239BBA6250E3A85005BD514 /* Main.storyboard */,
+				E2B7B703250EAABF00804D8C /* CurrentWeatherDataLoader.swift */,
+				E2B7B705250EC4F900804D8C /* CurrentWeatherInfo.swift */,
+				E25E52F725111BE900A6097B /* FiveDaysWeatherDataInfo.swift */,
 				E2B7B701250E755200804D8C /* Designable.swift */,
 				E239BBA9250E3A89005BD514 /* Assets.xcassets */,
 				E239BBAB250E3A89005BD514 /* LaunchScreen.storyboard */,
@@ -141,7 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DF1A8A2510AE93003B4BE5 /* ForcastedWeatherDataLoader.swift in Sources */,
+				E25E52F825111BE900A6097B /* FiveDaysWeatherDataInfo.swift in Sources */,
+				E2B7B704250EAABF00804D8C /* CurrentWeatherDataLoader.swift in Sources */,
 				E239BBA5250E3A85005BD514 /* ViewController.swift in Sources */,
+				E2B7B706250EC4F900804D8C /* CurrentWeatherInfo.swift in Sources */,
 				E2B7B702250E755200804D8C /* Designable.swift in Sources */,
 				E239BBA1250E3A85005BD514 /* AppDelegate.swift in Sources */,
 				E239BBA3250E3A85005BD514 /* SceneDelegate.swift in Sources */,
